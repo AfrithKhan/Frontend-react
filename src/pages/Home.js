@@ -108,7 +108,7 @@ class Home extends Component {
                     }
                     
                     <div className="col s12 l6">
-                        <h5>Users</h5>
+                        <h5>Users-changed</h5>
                         <UserTable users={users} editRow={this.editRow} deleteUser={this.deleteUser} />
                     </div>
                 </div>
