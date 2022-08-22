@@ -91,7 +91,7 @@ class Home extends Component {
                     {
                         this.state.editing ? (
                             <div className="col s12 l6">
-                                <h4>Edit User</h4>
+                                <h4>Edit User-changed</h4>
                                 <EditUserForm 
                                     editing={this.state.editing}
                                     setEditing={this.setEditing}
